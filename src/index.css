@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  background-color: #2b2e33;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+input:focus {
+  transition: 0.5s all;
+  border: 1px solid #007aae;
+}
+
+body {
+  background-color: #080a0c;
+}
